@@ -3,7 +3,7 @@ const path = require('path')
 const geocode = require('./utils/geocode.js')
 const forecast = require('./utils/forecast.js')
 const app = express()
-const port = process.env.PORT
+const port = process.env.PORT || 3000
 
 const publicDirectoryPath = path.join(__dirname, '../public')
 app.use(express.static(publicDirectoryPath))
