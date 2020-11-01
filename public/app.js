@@ -1,5 +1,5 @@
-console.log('Client side javascript file is loaded!')
-console.log('made by Atharv Tathe')
+console.log('Client side javascript file is loaded!');
+console.log('made by Atharv Tathe');
 
 
 const weatherForm = document.querySelector('form')
